@@ -1,5 +1,67 @@
-header {
-text-align: center;
-background-color: #b6eeb6; /* verde suave */
-padding: 20px;
+nav{
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    text-align: right;
+}
+    nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.picture{
+    border: 5px solid purple;
+    border-radius: 20px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+h2{
+    color: purple;
+    text-align:  center;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color:black;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f5eacb;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 5 px;
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.footer p{
+    text-align: center;
+}
+
+.perfil p{
+    text-align: center;
+}
+.contacto p{
+    text-align: center;
+}
+.Sobremí p{
+    text-align: center;
 }
